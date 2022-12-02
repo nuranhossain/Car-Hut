@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "Jimmy",
+    "carName": "Mini",
+    "location": "New York",
+    "img": "https://mediacloud.carbuyer.co.uk/image/private/s--XfaZNqGq--/f_auto,t_primary-image-desktop@1/v1656587090/autoexpress/2022/06/Fiat%20500%20UK-6.jpg",
+    "price": "1600",
+    "email": "yis@yis.com",
+    "des": "Nearly used 1 years. Still in good condition",
+    "post": "Nov 29, 2022"
+  },
+  {
+    "id": 2,
+    "name": "John",
+    "carName": "Jaguar ",
+    "email": "ais@ais.com",
+    "location": "California",
+    "post": "Nov 29, 2022",
+    "img": "https://mediacloud.carbuyer.co.uk/image/private/s--YejMfxdz--/f_auto,t_content-image-full-desktop@1/v1579636316/carbuyer/2018/06/jaguaripace21_0.jpg",
+    "price": "1400",
+    "des": " used 4 years. Still in good condition"
+  },
+  {
+    "id": 3,
+    "name": "Bill",
+    "carName": "Toyota",
+    "location": "Las vegas",
+    "email": "dis@dis.com",
+    "post": "Nov 29, 2022",
+    "img": "https://www.evanshalshaw.com/-/media/evanshalshaw/blog/cheapest-cars-to-run-in-2022/toyota-prius-driving-1920x774px.ashx",
+    "price": "4000",
+    "des": " used 3 years. Still in good condition"
+  },
+  {
+    "id": 4,
+    "location": "Washington",
+    "carName": "Volkswagon",
+    "name": "Emma",
+    "email": "wis@wis.com",
+    "post": "Nov 29, 2022",
+    "img": "https://www.worldofroads.com/wp-content/uploads/2017/11/HK8A2876-768x539.jpg",
+    "price": "7220",
+    "des": "I Got a new car thats why want to sell it, used 5 years"
+  },
+  {
+    "id": 5,
+    "location": "New York",
+    "name": "Rock",
+    "carName": "Fiat",
+    "email": "mis@mis.com",
+    "post": "Nov 29, 2022",
+    "img": "https://www.autoguide.com/blog/wp-content/uploads/2017/06/2017-fiat-500.jpg",
+    "price": "3200",
+    "des": "I am moving to another city,thats why want to sell it"
+  },
+  {
+    "id": 6,
+    "location": "New York",
+    "carName": "Mitshubisi",
+    "name": "Emily",
+    "img": "https://dollarsandsense.sg/wp-content/uploads/2020/02/Space-Star-1024x1024.jpg",
+    "price": "1323",
+    "email": "tis@tis.com",
+    "des": "I Got a new car thats why want to sell it, used 3 years",
+    "post": "Nov 29, 2022"
+  }
+]

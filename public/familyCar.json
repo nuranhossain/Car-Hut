@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "Ada",
+    "carName": "Volkswagen ",
+    "location": "New York",
+    "img": "https://th.bing.com/th/id/R.13ee2fd5dd48414d321cc8de14d6ed76?rik=lAiUfBowCUHVsA&pid=ImgRaw&r=0",
+    "price": "1600",
+    "email": "yis@yis.com",
+    "des": "Nearly used 1 years. Still in good condition",
+    "post": "Nov 29, 2022"
+  },
+  {
+    "id": 2,
+    "name": "John",
+    "carName": "chevy",
+    "email": "ais@ais.com",
+    "location": "California",
+    "post": "Nov 29, 2022",
+    "img": "https://th.bing.com/th/id/R.8662890dfb293388b28c438eaf432e7b?rik=jmGhwkwnHGsJYw&riu=http%3a%2f%2fdf_blogs_media.s3.amazonaws.com%2fwp-content%2fuploads%2fsites%2f68%2f2014%2f07%2fBlog-4-pic-1-Harbin-Chevy-Best-Cars-for-Families.jpg&ehk=8ThoqmCvPh0z8%2bjnWzNoGkYVQrY3gW88bhEsnSgWEPM%3d&risl=&pid=ImgRaw&r=0",
+    "price": "1400",
+    "des": " used 4 years. Still in good condition"
+  },
+  {
+    "id": 3,
+    "name": "Bill",
+    "carName": "Toyota",
+    "location": "New York",
+    "email": "dis@dis.com",
+    "post": "Nov 29, 2022",
+    "img": "https://www.trbimg.com/img-556f18dc/turbine/ct-autos-best-family-cars-0603-20150602",
+    "price": "1200",
+    "des": " used 3 years. Still in good condition"
+  },
+  {
+    "id": 4,
+    "location": "Washington",
+    "carName": "Mazda",
+    "name": "Emma",
+    "email": "wis@wis.com",
+    "post": "Nov 29, 2022",
+    "img": "https://th.bing.com/th/id/R.6b39ae248d2d22ee8615b24ea8ac6e6b?rik=rSw8qPPi9SRg2g&riu=http%3a%2f%2fwww.gannett-cdn.com%2f-mm-%2fc004597a977470b5e7f4a00c91124313dfd4d7af%2fc%3d2016-1798-6265-4209%26r%3dx1683%26c%3d3200x1680%2flocal%2f-%2fmedia%2fUSATODAY%2fUSATODAY%2f2014%2f06%2f03%2f1401839611000-mazda3frontt14.jpg&ehk=2OouWz3JnO4hP6IRvrftXTWtOSnrm00XBqUqcwccQgw%3d&risl=&pid=ImgRaw&r=0",
+    "price": "2200",
+    "des": "I Got a new car thats why want to sell it, used 5 years"
+  },
+  {
+    "id": 5,
+    "location": "New York",
+    "name": "Rock",
+    "carName": "Toyota",
+    "email": "mis@mis.com",
+    "post": "Nov 29, 2022",
+    "img": "https://th.bing.com/th/id/R.f5bd1c82d75003d88c5ade476d0f24fd?rik=8XF%2bsLnvzlBXCg&riu=http%3a%2f%2fstatic1.businessinsider.com%2fimage%2f56b370bc2e5265b7008b4c7f-1190-625%2fthese-are-the-16-best-family-cars-for-2016.jpg&ehk=7qX%2b%2bhFz64MNdpgdiYcJV6sisAm4RwZEg1Ww1Ciz9fc%3d&risl=&pid=ImgRaw&r=0",
+    "price": "3200",
+    "des": "I am moving to another city,thats why want to sell it"
+  },
+  {
+    "id": 6,
+    "location": "New York",
+    "carName": "Subaru",
+    "name": "Emily",
+    "img": "https://static.cargurus.com/images/article/2018/08/21/16/06/what_to_look_for_in_a_family_car-pic-4986821285769572977-1600x1200.jpeg",
+    "price": "2300",
+    "email": "tis@tis.com",
+    "des": "I Got a new car thats why want to sell it, used 3 years",
+    "post": "Nov 29, 2022"
+  }
+]

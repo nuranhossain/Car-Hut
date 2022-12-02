@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "Jimmy",
+    "carName": "Mercedes ",
+    "location": "New York",
+    "img": "https://i.pinimg.com/564x/96/94/d4/9694d490fad48d0a43bee09a8de3d3fe.jpg",
+    "price": "1600",
+    "email": "yis@yis.com",
+    "des": "Nearly used 1 years. Still in good condition",
+    "post": "Nov 29, 2022"
+  },
+  {
+    "id": 2,
+    "name": "John",
+    "carName": "Mercedes ",
+    "email": "ais@ais.com",
+    "location": "California",
+    "post": "Nov 29, 2022",
+    "img": "https://d2m3nfprmhqjvd.cloudfront.net/blog/20220228142243/ezgif.com-gif-maker-98-5-800x450.jpg",
+    "price": "1400",
+    "des": " used 4 years. Still in good condition"
+  },
+  {
+    "id": 3,
+    "name": "Bill",
+    "carName": "BMW",
+    "location": "Las vegas",
+    "email": "dis@dis.com",
+    "post": "Nov 29, 2022",
+    "img": "https://etimg.etb2bimg.com/photo/73272413.cms",
+    "price": "40000",
+    "des": " used 3 years. Still in good condition"
+  },
+  {
+    "id": 4,
+    "location": "Washington",
+    "carName": "Audi",
+    "name": "Emma",
+    "email": "wis@wis.com",
+    "post": "Nov 29, 2022",
+    "img": "https://i.pinimg.com/564x/ab/67/2d/ab672d3710c0edb752ae39eb4b003b1d.jpg",
+    "price": "72200",
+    "des": "I Got a new car thats why want to sell it, used 5 years"
+  },
+  {
+    "id": 5,
+    "location": "New York",
+    "name": "Rock",
+    "carName": "Bugatti",
+    "email": "mis@mis.com",
+    "post": "Nov 29, 2022",
+    "img": "https://carsguide-res.cloudinary.com/image/upload/f_auto,fl_lossy,q_auto,t_cg_hero_large/v1/editorial/listicle/hero_image/2020-Bugatti%20Centodieci-1001x565-%282%29.jpg",
+    "price": "320000",
+    "des": "I am moving to another city,thats why want to sell it"
+  },
+  {
+    "id": 6,
+    "location": "New York",
+    "carName": "Mclaren",
+    "name": "Emily",
+    "img": "https://www.gannett-cdn.com/-mm-/bb1ec98fc576dc3a0ab84f85786cee9b45a415c3/c=0-183-4494-2722/local/-/media/2015/10/14/USATODAY/USATODAY/635804260125497432-AP-SWITZERLAND-GENEVA-MOTOR-SHOW-54577357.JPG?width=660&height=373&fit=crop&format=pjpg&auto=webp",
+    "price": "132300",
+    "email": "tis@tis.com",
+    "des": "I Got a new car thats why want to sell it, used 3 years",
+    "post": "Nov 29, 2022"
+  }
+]
