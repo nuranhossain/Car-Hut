@@ -1,3 +1,23 @@
+
+1. used react
+2. tailwind css used
+3. admin-user : gopal@var.com
+4. admin-pass: gopal@var.com
+5. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
