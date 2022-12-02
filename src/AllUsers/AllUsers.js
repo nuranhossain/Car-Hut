@@ -26,7 +26,11 @@ const AllUsers = () => {
   };
 
   const handleDelete = (user) => {
-    console.log(user);
+    fetch(`http://localhost:5000/users/admin/${user.id}`, {
+      method: "DELETE",
+    })
+      .then((res) => res.json())
+      .then((data) => {});
   };
 
   return (
