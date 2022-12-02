@@ -4,7 +4,7 @@ import Modal from "../Modal/Modal";
 
 const FamilyCar = ({ car, setSelectedCar }) => {
   const { loading } = useContext(AuthContext);
-  const { name, img, des, price, post, email, carName, location } = car;
+  const { name, img, des, price, post, email, carName, location, verify } = car;
 
   return (
     <div className="">
@@ -18,12 +18,16 @@ const FamilyCar = ({ car, setSelectedCar }) => {
             <span className="text-blue-600 font-bold">Description:</span> {des}
           </p>
           <h1 className="text-xl">${price}</h1>
+          {/* Seller Info  */}
           <div className="user border rounded pl-3 py-2 shadow-lg">
             <p className="text-center py-3 text-gray-600 font-bold">
               Seller Info
             </p>
-            <span className="text small">Author: </span>{" "}
-            <span className="text-blue-400 font-bold">{name}</span>
+            <div className="">
+              <span className="text small">Author: </span>{" "}
+              <span className="text-blue-400 font-bold">{name}</span>
+              {verify && <i className="fa-sharp fa-solid fa-badge-check"></i>}
+            </div>
             <p>
               Email: <span className="font-bold">{email}</span>
             </p>
