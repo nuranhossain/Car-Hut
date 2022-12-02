@@ -35,7 +35,7 @@ const Register = () => {
 
   const saveUser = (name, email, typ) => {
     const user = { name, email, typ };
-    fetch(`http://localhost:5000/users`, {
+    fetch(`https://server-sepia-ten.vercel.app/users`, {
       method: "POST",
       headers: {
         "content-type": "application/json",

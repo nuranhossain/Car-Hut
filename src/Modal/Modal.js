@@ -38,7 +38,7 @@ const Modal = ({ selectedCar, setSelectedCar }) => {
       sallerLocation,
     };
 
-    fetch(`http://localhost:5000/buying`, {
+    fetch(`https://server-sepia-ten.vercel.app/buying`, {
       method: "POST",
       headers: {
         "content-type": "application/json",

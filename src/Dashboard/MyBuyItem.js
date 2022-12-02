@@ -2,15 +2,20 @@ import { async } from "@firebase/util";
 import { useQuery } from "@tanstack/react-query";
 import React, { useContext, useState } from "react";
 import { AuthContext } from "../Context/AuthProvider";
+import Loader from "../Loader/Loader";
 
 const MyBuyItem = () => {
   const { user } = useContext(AuthContext);
   const [buyingList, setBuyingList] = useState([]);
-  const url = `http://localhost:5000/buying?email=${user?.email}`;
+  const [loading, setLoading] = useState(true);
+  const url = `https://server-sepia-ten.vercel.app/buying?email=${user?.email}`;
 
   fetch(url)
     .then((res) => res.json())
-    .then((data) => setBuyingList(data));
+    .then((data) => {
+      setLoading(false);
+      setBuyingList(data);
+    });
   //   const { data: buyingList = [] } = useQuery({
   //     queryKey: ["buying", user?.email],
   //     queryFn: () => async () => {
@@ -35,6 +40,8 @@ const MyBuyItem = () => {
             </tr>
           </thead>
           <tbody>
+            {loading && <Loader></Loader>}
+
             {buyingList &&
               buyingList?.map((list, i) => (
                 <tr>

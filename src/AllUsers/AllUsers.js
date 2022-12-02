@@ -1,19 +1,20 @@
 import { useQuery } from "@tanstack/react-query";
-import React from "react";
+import React, { useState } from "react";
 import toast from "react-hot-toast";
+import Loader from "../Loader/Loader";
 
 const AllUsers = () => {
   const { data: allUsers = [], refetch } = useQuery({
     queryKey: ["users"],
     queryFn: async () => {
-      const res = await fetch(`http://localhost:5000/users`);
+      const res = await fetch(`https://server-sepia-ten.vercel.app/users`);
       const data = await res.json();
       return data;
     },
   });
 
   const handleMakeAdmin = (email) => {
-    fetch(`http://localhost:5000/users/admin/${email}`, {
+    fetch(`https://server-sepia-ten.vercel.app/users/admin/${email}`, {
       method: "PUT",
     })
       .then((res) => res.json())
@@ -27,7 +28,7 @@ const AllUsers = () => {
 
   const handleDelete = (user) => {
     console.log(user);
-    fetch(`http://localhost:5000/users/admin/${user._id}`, {
+    fetch(`https://server-sepia-ten.vercel.app/users/admin/${user._id}`, {
       method: "DELETE",
     })
       .then((res) => res.json())
