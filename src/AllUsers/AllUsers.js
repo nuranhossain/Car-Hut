@@ -25,6 +25,10 @@ const AllUsers = () => {
       });
   };
 
+  const handleDelete = (user) => {
+    console.log(user);
+  };
+
   return (
     <div>
       <div className="overflow-x-auto w-full mt-10">
@@ -66,7 +70,7 @@ const AllUsers = () => {
                     )}
                   </td>
                   <td>
-                    <button>X</button>
+                    <button onClick={() => handleDelete(list)}>X</button>
                   </td>
                 </tr>
               ))}
