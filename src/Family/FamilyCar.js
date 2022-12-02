@@ -23,10 +23,18 @@ const FamilyCar = ({ car, setSelectedCar }) => {
             <p className="text-center py-3 text-gray-600 font-bold">
               Seller Info
             </p>
-            <div className="">
-              <span className="text small">Author: </span>{" "}
-              <span className="text-blue-400 font-bold">{name}</span>
-              {verify && <i className="fa-sharp fa-solid fa-badge-check"></i>}
+            <div className="flex justify-between">
+              <div>
+                <span className="text small">Author: </span>{" "}
+                <span className="text-blue-400 font-bold">{name}</span>
+              </div>
+              {verify && (
+                <div>
+                  {" "}
+                  <i class="fa-solid fa-check mr-2 text-orange-500"></i>
+                  <span>Verified</span>
+                </div>
+              )}
             </div>
             <p>
               Email: <span className="font-bold">{email}</span>

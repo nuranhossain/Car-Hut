@@ -8,6 +8,7 @@ const Blog = () => {
           Question 1: What are the different ways to manage a state in a React
           application?
         </h1>
+
         <p className="text-slate-500 text-center ml-4">
           Answer: Every React component has a built-in state. This state is an
           object which stores the property values that belong to a component.
