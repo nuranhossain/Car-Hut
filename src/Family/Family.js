@@ -25,7 +25,9 @@ const Family = () => {
           Family Used Car
         </h1>
       </div>
-      ;{loading && <Loader></Loader>}
+      {/* Family Card  */}
+
+      {loading && <Loader></Loader>}
       <div className="grid lg:grid-cols-2 grid-cols-1 mt-20">
         {familyCar.map((car) => (
           <>
