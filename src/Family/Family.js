@@ -10,7 +10,7 @@ const Family = () => {
   const [selectedCar, setSelectedCar] = useState({});
 
   useEffect(() => {
-    fetch(`http://localhost:5000/family`)
+    fetch(`https://server-sepia-ten.vercel.app/family`)
       .then((res) => res.json())
       .then((data) => {
         setLoading(false);
