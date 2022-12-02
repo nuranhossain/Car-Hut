@@ -11,7 +11,7 @@ const Luxurious = () => {
   let [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch(`http://localhost:5000/luxurious`)
+    fetch(`https://server-sepia-ten.vercel.app/luxurious`)
       .then((res) => res.json())
       .then((data) => {
         setLoading(false);
