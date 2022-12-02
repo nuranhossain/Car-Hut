@@ -5,11 +5,12 @@ const useAdmin = (email) => {
   const [isAdminLoading, setAdminLoading] = useState(true);
   useEffect(() => {
     if (email) {
-      fetch(`http://localhost:5000/users/admin/${email}`).then((res) =>
-        res.json().then((data) => {
-          setAdminLoading(false);
-          setIsAdmin(data.isAdmin);
-        })
+      fetch(`https://server-sepia-ten.vercel.app/users/admin/${email}`).then(
+        (res) =>
+          res.json().then((data) => {
+            setAdminLoading(false);
+            setIsAdmin(data.isAdmin);
+          })
       );
     }
   }, [email]);

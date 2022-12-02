@@ -4,9 +4,10 @@ import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../Context/AuthProvider";
+import { GoogleAuthProvider } from "firebase/auth";
 
 const Register = () => {
-  const { createUser, updateUser } = useContext(AuthContext);
+  const { createUser, updateUser, providerLogin } = useContext(AuthContext);
   const navigate = useNavigate();
 
   const {
@@ -46,6 +47,18 @@ const Register = () => {
       .then((data) => {
         console.log(data);
       });
+  };
+
+  let googleProvider = new GoogleAuthProvider();
+
+  let GoogleSignIn = () => {
+    providerLogin(googleProvider).then((result) => {
+      let user = result.user;
+      const currentUser = {
+        email: user.email,
+      };
+      navigate("/");
+    });
   };
 
   return (
@@ -109,7 +122,9 @@ const Register = () => {
           </Link>
         </div>
         <div>
-          <Link className="btn w-full mt-5">Google</Link>
+          <Link onClick={GoogleSignIn} className="btn w-full mt-5">
+            Google
+          </Link>
         </div>
       </form>
     </div>
