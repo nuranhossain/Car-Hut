@@ -13,7 +13,9 @@ const Cheap = () => {
   const { data: cheap = [], isLoading } = useQuery({
     queryKey: [`cheap`],
     queryFn: () =>
-      fetch(`http://localhost:5000/cheap`).then((res) => res.json()),
+      fetch(`https://server-sepia-ten.vercel.app/cheap`).then((res) =>
+        res.json()
+      ),
   });
 
   // useEffect(() => {
