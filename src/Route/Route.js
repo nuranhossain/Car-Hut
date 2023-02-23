@@ -1,4 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
+import AddPost from "../Addpost/AddPost";
+import AllPost from "../AllPost/AllPost";
+import AllPostData from "../AllPost/AllPostData";
 import AllUsers from "../AllUsers/AllUsers";
 import Blog from "../Blog/Blog";
 import Cheap from "../Cheap/Cheap";
@@ -48,6 +51,10 @@ export const router = createBrowserRouter([
         path: "/blog",
         element: <Blog></Blog>,
       },
+      {
+        path: "/allcars",
+        element: <AllPostData></AllPostData>,
+      },
     ],
   },
   {
@@ -63,6 +70,14 @@ export const router = createBrowserRouter([
         element: (
           <Admin>
             <AllUsers></AllUsers>
+          </Admin>
+        ),
+      },
+      {
+        path: "/dashboard/addpost",
+        element: (
+          <Admin>
+            <AddPost></AddPost>
           </Admin>
         ),
       },

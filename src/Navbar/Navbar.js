@@ -20,8 +20,11 @@ const Navbar = () => {
       <Link className="mr-3 font-semibold btn btn-outline btn-warning" to="/">
         Home
       </Link>
-      <Link className="mr-3 font-semibold btn btn-outline btn-warning">
-        About
+      <Link
+        to="/allcars"
+        className="mr-3 font-semibold btn btn-outline btn-warning"
+      >
+        All Car
       </Link>
       <Link
         to="/blog"

@@ -10,7 +10,11 @@ const LuxuriousCar = ({ car, setSelectedCar }) => {
     <div className="">
       <div className="card card-side bg-base-100 shadow-xl lg:w-[650px] mx-auto gap-10 lg:mb-10 mb-7">
         <figure>
-          <img src={img} alt="Movie" className="w-[350px] h-full rounded" />
+          <img
+            src={img}
+            alt="Movie"
+            className="max-w-[350px] w-[350px] max-w max max-h-[400px] h-full rounded"
+          />
         </figure>
         <div className="card-body">
           <h2 className="card-title">{carName}</h2>

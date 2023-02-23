@@ -13,7 +13,7 @@ const Register = () => {
   const {
     register,
     handleSubmit,
-    required,
+
     formState: { errors },
   } = useForm();
   const [data, setData] = useState("");
